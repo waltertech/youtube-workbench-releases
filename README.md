@@ -1,17 +1,27 @@
 # YouTube 工作台下载
 
-[查看发布版本与下载](https://github.com/waltertech/youtube-workbench-releases/releases)
+[下载 v0.7.0 独立安装版](https://github.com/waltertech/youtube-workbench-releases/releases/tag/v0.7.0)
 
-此仓库仅提供公开发布产物，不包含私有源码与开发交接。
+系统要求：**Apple Silicon（M 系列）Mac，macOS 26 或更新版本**。暂不提供 Intel Mac 或 Windows 安装包。
 
-## YouTube 工作台 · macOS 开发预览
+## 安装
 
-包含 Dashboard 骨架屏与数据动效、七步蒙层新用户引导、审核后自动带入视频和来源 TXT 制作封面，以及本机设置中的 GitHub 更新入口。
+下载 `YouTube-Workbench-0.7.0-macOS-arm64.dmg`，将「YouTube 工作台」拖入 Applications 后启动。
 
-**这是开发预览，尚非独立安装包。** 当前 macOS 构建依赖原开发电脑上的项目目录、Python、FFmpeg 与原工具源文件。不适合在另一台电脑直接安装。Windows 包尚未提供。应用未完成 Developer ID 签名和公证。
+安装包内置 Python、FFmpeg、NumPy、Codex CLI、OCR 与封面组件，无需开发项目、Homebrew 或 Xcode。首次启动自动检测组件并准备本机工作空间。AI 功能需自行登录 Codex 或配置相应服务，离线制作不要求登录。
 
-解压后打开应用。升级前结束正在运行的任务并退出旧应用；保留现有工作空间目录。不要删除素材或 .runtime 数据。正式跨电脑分发需完成运行时打包与干净机器验收。
+此包尚未完成 Apple Developer ID 签名与公证；首次打开若被 macOS 拦截，需要用户在系统「隐私与安全性」中确认来源。已通过隔离 HOME/PATH、只读 DMG 运行验证，但未在另一台物理新 Mac 上测试。
 
-SHA256SUMS 可用于核对下载完整性。校验和不是开发者代码签名。
+## 更新
 
-本机设置 → 应用更新 → 检查更新：查询 GitHub 最新正式 Release，下载按钮打开该版本发布页，由用户下载安装。开发预览不会被当作正式更新推送。
+右上角下载图标或「本机设置 → 检查更新」，弹框显示更新内容、下载进度，支持取消和重试。下载完毕校验 SHA256，点击「打开安装包」安装。替换应用前结束任务并退出旧版本。
+
+用户数据和素材位于应用外；旧开发版用户可在首次检测页面选择「沿用旧版工作空间」，指向原来的 `.runtime` 目录，保留历史记录。
+
+## 发布附件
+
+- DMG：独立应用安装包。
+- SHA256SUMS：下载完整性校验，不等同于 Apple 签名。
+- YouTubeWorkbench-corresponding-sources.tar.gz：随附 FFmpeg 等开源组件的对应源码、构建配方及许可证；应用内另含第三方声明。
+
+本仓库仅公开分发安装产物。工作台业务源码与开发交接保存在私有仓库。
