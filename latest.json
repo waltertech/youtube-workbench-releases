@@ -1,0 +1,26 @@
+{
+  "tag_name": "v0.7.0",
+  "body": "## v0.7.0 · macOS 独立安装版\n\n适用：Apple Silicon（M 系列），macOS 26 或更新版本。此版本不支持 Intel Mac 或 Windows。\n\n### 新增\n- 安装包内置 Python、NumPy、FFmpeg/FFprobe、Codex CLI、Node OCR 运行时及预编译封面组件。运行不需要开发项目、Homebrew、Xcode 或系统 Python。\n- 首次启动检测组件完整性并初始化本机工作空间，显示真实步骤进度；组件已随安装包安装，无需重复下载。\n- Codex 登录单独提示：未登录也可使用离线功能，AI 封面/文案需要本人登录，外部付费图片服务仍需自行配置密钥。\n- GitHub 匿名 API 限流时自动使用公开版本清单，无需登录 GitHub。顶栏和本机设置增加「检查更新」，弹框展示更新内容、真实下载进度、取消重试；完成后校验 SHA256，点击打开 DMG 安装。\n- 用户数据位于应用外。旧版用户可在首次启动选择「沿用旧版工作空间」，指向原有 `.runtime` 目录，保留历史记录。\n\n### 安装与升级\n1. 下载 DMG，将「YouTube 工作台」拖入 Applications。\n2. 运行应用，完成首次检测；必要时完成 Codex 登录。\n3. 更新前结束运行中的制作任务并退出旧应用，再替换 Applications 中的应用。不要删除用户数据目录或素材。\n\n这是独立运行包，但尚未完成 Apple Developer ID 签名与公证。macOS 首次打开可能要求在「隐私与安全性」中由用户允许。未关闭或绕过 Gatekeeper。\n\n### 验收边界\n- 已进行临时用户目录、精简 PATH、搬迁安装路径的隔离验收；验证后台、媒体处理、离线封面与 OCR。\n- 没有在另一台物理新 Mac 或 Windows 上实测；真实 AI 付费生成与生产飞书写回不属于本次安装验收。\n- SHA256SUMS 用于下载完整性检查，不等同于 Apple 代码签名。\n",
+  "draft": false,
+  "prerelease": false,
+  "assets": [
+    {
+      "name": "SHA256SUMS",
+      "state": "uploaded",
+      "size": 218,
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.0/SHA256SUMS"
+    },
+    {
+      "name": "YouTube-Workbench-0.7.0-macOS-arm64.dmg",
+      "state": "uploaded",
+      "size": 295791607,
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.0/YouTube-Workbench-0.7.0-macOS-arm64.dmg"
+    },
+    {
+      "name": "YouTubeWorkbench-corresponding-sources.tar.gz",
+      "state": "uploaded",
+      "size": 118464577,
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.0/YouTubeWorkbench-corresponding-sources.tar.gz"
+    }
+  ]
+}
