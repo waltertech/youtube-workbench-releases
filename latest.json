@@ -1,6 +1,6 @@
 {
-  "tag_name": "v0.7.1",
-  "body": "## 本次更新\n\n- 打通发布辅助 → 飞书写回 → 归档闭环，可绑定每日计划并记录视频链接、频道及发布时间。\n- 支持写回失败后重试和状态恢复，归档副本校验通过后再清理对应待发布记录。\n- 共享同一成片的多个发布计划会分别确认，全部完成后再清理共享待发布素材。\n- 原工具生成的封面和来源 TXT 可接入本机审核、发布流程。\n- 修复素材库搜索框、搜索按钮与刷新按钮的对齐。\n- 包含最新红、蓝、白 Dashboard 卡片和界面调整。\n\n## 安装与更新\n\n适用于 Apple Silicon Mac，要求 macOS 26 或以上。打开 DMG，将“ YouTube 工作台.app ”拖入 Applications 替换旧版。更新前请先结束正在执行的任务。已有工作空间数据保留，可在本机设置选择原工作空间。\n\n本包内置 Python、FFmpeg/FFprobe、封面及 OCR 组件，无需安装开发环境。Codex 登录和飞书授权仍需使用者配置。\n\n当前为 ad-hoc 签名，尚未取得 Developer ID 签名及公证。Windows 与旧版 macOS 不适用本安装包。\n\n## 验证范围\n\n后端与客户端全量回归、独立运行时、新用户目录及只读 DMG 冒烟验证通过。飞书写回采用隔离模拟服务测试，未对生产表执行测试写入；新物理 Mac 尚待使用反馈。\n",
+  "tag_name": "v0.7.2",
+  "body": "## 更新内容\n\n- 页面切换改为分层入场：标题、核心区域、列表依次淡入并轻微上移，约280ms完成。\n- 旧页面80ms快速淡出，退出期间隔离鼠标、键盘焦点与辅助功能，避免误操作。\n- 保留侧栏和顶栏位置；普通数据刷新不重复播放动效。\n- 键盘切换与系统“减少动态效果”模式下即时显示。\n- 包含v0.7.1的发布辅助、飞书写回与归档闭环及素材库搜索栏对齐修复。\n\n## 安装\n\n适用于Apple Silicon Mac，要求macOS26或以上。打开DMG，将“ YouTube 工作台.app ”拖入Applications替换旧版。请先结束正在运行的任务，原工作空间保留。\n\n内置Python、FFmpeg/FFprobe、封面与OCR组件，无需开发环境。Codex登录与飞书授权仍需自行配置。\n\n当前为ad-hoc签名，未经Developer ID签名与公证。未在新物理Mac或Windows实测；飞书写回使用隔离模拟服务验收，未测试写入生产表。\n",
   "draft": false,
   "prerelease": false,
   "assets": [
@@ -8,19 +8,19 @@
       "name": "SHA256SUMS",
       "state": "uploaded",
       "size": 218,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.1/SHA256SUMS"
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.2/SHA256SUMS"
     },
     {
-      "name": "YouTube-Workbench-0.7.1-macOS-arm64.dmg",
+      "name": "YouTube-Workbench-0.7.2-macOS-arm64.dmg",
       "state": "uploaded",
-      "size": 294358582,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.1/YouTube-Workbench-0.7.1-macOS-arm64.dmg"
+      "size": 293976228,
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.2/YouTube-Workbench-0.7.2-macOS-arm64.dmg"
     },
     {
       "name": "YouTubeWorkbench-corresponding-sources.tar.gz",
       "state": "uploaded",
       "size": 118464577,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.1/YouTubeWorkbench-corresponding-sources.tar.gz"
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.2/YouTubeWorkbench-corresponding-sources.tar.gz"
     }
   ]
 }
