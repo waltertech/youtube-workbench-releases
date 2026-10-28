@@ -1,6 +1,6 @@
 {
-  "tag_name": "v0.7.2",
-  "body": "## 更新内容\n\n- 页面切换改为分层入场：标题、核心区域、列表依次淡入并轻微上移，约280ms完成。\n- 旧页面80ms快速淡出，退出期间隔离鼠标、键盘焦点与辅助功能，避免误操作。\n- 保留侧栏和顶栏位置；普通数据刷新不重复播放动效。\n- 键盘切换与系统“减少动态效果”模式下即时显示。\n- 包含v0.7.1的发布辅助、飞书写回与归档闭环及素材库搜索栏对齐修复。\n\n## 安装\n\n适用于Apple Silicon Mac，要求macOS26或以上。打开DMG，将“ YouTube 工作台.app ”拖入Applications替换旧版。请先结束正在运行的任务，原工作空间保留。\n\n内置Python、FFmpeg/FFprobe、封面与OCR组件，无需开发环境。Codex登录与飞书授权仍需自行配置。\n\n当前为ad-hoc签名，未经Developer ID签名与公证。未在新物理Mac或Windows实测；飞书写回使用隔离模拟服务验收，未测试写入生产表。\n",
+  "tag_name": "v0.7.3",
+  "body": "新增11步蒙层引导，覆盖环境检测、频道绑定、今日计划与人工发布归档流程。老用户更新后可查看一次新版引导。\n\n新增可选比特浏览器连接配置、环境检测及今日上传准备队列；入口默认折叠，不影响原手工发布。通信依赖内置，无需开发环境。当前仅支持配置和队列准备，真实自动上传尚未开放，最终发布仍由人工完成。\n\n保留现有发布辅助、飞书写回和归档闭环。\n\n验证：客户端95项、后端350项测试通过；静态检查通过；独立运行时在全新HOME及无开发PATH环境验证通过。\n\n适用：macOS 26及以上、Apple Silicon。当前为ad-hoc签名，尚未Apple公证；首次打开可能需要在系统设置的隐私与安全性中允许打开。\n\n下载DMG安装，SHA256SUMS提供校验值；对应第三方源码见sources附件。\n",
   "draft": false,
   "prerelease": false,
   "assets": [
@@ -8,19 +8,19 @@
       "name": "SHA256SUMS",
       "state": "uploaded",
       "size": 218,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.2/SHA256SUMS"
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.3/SHA256SUMS"
     },
     {
-      "name": "YouTube-Workbench-0.7.2-macOS-arm64.dmg",
+      "name": "YouTube-Workbench-0.7.3-macOS-arm64.dmg",
       "state": "uploaded",
-      "size": 293976228,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.2/YouTube-Workbench-0.7.2-macOS-arm64.dmg"
+      "size": 296026389,
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.3/YouTube-Workbench-0.7.3-macOS-arm64.dmg"
     },
     {
       "name": "YouTubeWorkbench-corresponding-sources.tar.gz",
       "state": "uploaded",
-      "size": 118464577,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.2/YouTubeWorkbench-corresponding-sources.tar.gz"
+      "size": 119630622,
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.3/YouTubeWorkbench-corresponding-sources.tar.gz"
     }
   ]
 }
