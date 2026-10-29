@@ -1,6 +1,6 @@
 {
-  "tag_name": "v0.7.7",
-  "body": "视频和音乐列表新增“全选搜索结果”和“清空选择”，全选覆盖当前搜索的所有分页；失败时保留原有选择，超过单批合计200份明确提示，不静默截断。\n\n修复超过200份候选阻断目录扫描的问题：扫描前仅检查路径，制作选材仍遵守单批上限。生成按钮旁显示已选数量、缺视频/音乐及超限说明。修复分辨率和帧率下拉框溢出。\n\n包含v0.7.6 TapSave钥匙串组件修复及预编译辅助程序，无需Swift开发环境；已在独立临时服务验证保存、读取、删除，不触碰用户真实Key。\n\n验证：客户端105项、相关后端29项测试通过，版本独立审查通过；只读DMG完整运行时冒烟通过。\n\nmacOS26+ Apple Silicon；ad-hoc签名，未Apple公证。真实自动上传和多磁盘分别授权尚未开放。\n\n本版第三方媒体运行库版本未变，对应源码复用公开附件：https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.5/YouTubeWorkbench-corresponding-sources.tar.gz\n",
+  "tag_name": "v0.7.8",
+  "body": "修复230首音乐点击全选后没有选中的问题：视频+音乐候选池上限由200调整到1000，支持6个视频+230首音乐一起提交方案任务。候选数量不代表单条视频实际使用歌曲数，每条用歌数量仍由剪辑参数决定。\n\n跨页全选新增读取进度，超限或连接失败时显示明确反馈并保留原有选择；继续保留实时额度核验和原子合并。\n\n验证：客户端106项、后台356项全量测试通过，静态检查与独立前后端审查通过。只读安装包运行时检查通过。\n\nmacOS26+ Apple Silicon；ad-hoc签名，未Apple公证。多磁盘分别授权和真实自动上传尚未开放。\n\n第三方媒体运行库版本未变，对应源码：https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.5/YouTubeWorkbench-corresponding-sources.tar.gz\n",
   "draft": false,
   "prerelease": false,
   "assets": [
@@ -8,13 +8,13 @@
       "name": "SHA256SUMS",
       "state": "uploaded",
       "size": 106,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.7/SHA256SUMS"
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.8/SHA256SUMS"
     },
     {
-      "name": "YouTube-Workbench-0.7.7-macOS-arm64.dmg",
+      "name": "YouTube-Workbench-0.7.8-macOS-arm64.dmg",
       "state": "uploaded",
-      "size": 293692121,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.7/YouTube-Workbench-0.7.7-macOS-arm64.dmg"
+      "size": 295200338,
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.8/YouTube-Workbench-0.7.8-macOS-arm64.dmg"
     }
   ]
 }
