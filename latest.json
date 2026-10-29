@@ -1,26 +1,20 @@
 {
-  "tag_name": "v0.7.5",
-  "body": "统一素材导入流程：首页和素材库共用同一导入入口，只需导入一次。\n\n新增文件/文件夹两种导入方式，明确说明保存素材根目录不会自动入库。提交后返回素材库，显示扫描/入库状态、失败原因和任务详情入口；入库完成后自动刷新结果，保留搜索条件。\n\n导入异常改为持久弹框，避免漏看路径限制或部分提交信息。\n\n保留v0.7.4扫描按钮白字与进度/错误反馈修复。\n\n验证：客户端100项测试及静态检查通过；独立只读DMG在全新HOME、无开发PATH环境冒烟通过。\n\n适用macOS 26及以上、Apple Silicon；内置依赖，无需开发环境。当前ad-hoc签名、未Apple公证。仍为单素材根目录，尚不支持多个磁盘分别授权；真实自动上传尚未开放。\n",
+  "tag_name": "v0.7.7",
+  "body": "视频和音乐列表新增“全选搜索结果”和“清空选择”，全选覆盖当前搜索的所有分页；失败时保留原有选择，超过单批合计200份明确提示，不静默截断。\n\n修复超过200份候选阻断目录扫描的问题：扫描前仅检查路径，制作选材仍遵守单批上限。生成按钮旁显示已选数量、缺视频/音乐及超限说明。修复分辨率和帧率下拉框溢出。\n\n包含v0.7.6 TapSave钥匙串组件修复及预编译辅助程序，无需Swift开发环境；已在独立临时服务验证保存、读取、删除，不触碰用户真实Key。\n\n验证：客户端105项、相关后端29项测试通过，版本独立审查通过；只读DMG完整运行时冒烟通过。\n\nmacOS26+ Apple Silicon；ad-hoc签名，未Apple公证。真实自动上传和多磁盘分别授权尚未开放。\n\n本版第三方媒体运行库版本未变，对应源码复用公开附件：https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.5/YouTubeWorkbench-corresponding-sources.tar.gz\n",
   "draft": false,
   "prerelease": false,
   "assets": [
     {
       "name": "SHA256SUMS",
       "state": "uploaded",
-      "size": 218,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.5/SHA256SUMS"
+      "size": 106,
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.7/SHA256SUMS"
     },
     {
-      "name": "YouTube-Workbench-0.7.5-macOS-arm64.dmg",
+      "name": "YouTube-Workbench-0.7.7-macOS-arm64.dmg",
       "state": "uploaded",
-      "size": 295548005,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.5/YouTube-Workbench-0.7.5-macOS-arm64.dmg"
-    },
-    {
-      "name": "YouTubeWorkbench-corresponding-sources.tar.gz",
-      "state": "uploaded",
-      "size": 119630622,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.5/YouTubeWorkbench-corresponding-sources.tar.gz"
+      "size": 293692121,
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.7/YouTube-Workbench-0.7.7-macOS-arm64.dmg"
     }
   ]
 }
