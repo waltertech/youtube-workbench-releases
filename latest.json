@@ -1,20 +1,26 @@
 {
-  "tag_name": "v0.7.8",
-  "body": "修复230首音乐点击全选后没有选中的问题：视频+音乐候选池上限由200调整到1000，支持6个视频+230首音乐一起提交方案任务。候选数量不代表单条视频实际使用歌曲数，每条用歌数量仍由剪辑参数决定。\n\n跨页全选新增读取进度，超限或连接失败时显示明确反馈并保留原有选择；继续保留实时额度核验和原子合并。\n\n验证：客户端106项、后台356项全量测试通过，静态检查与独立前后端审查通过。只读安装包运行时检查通过。\n\nmacOS26+ Apple Silicon；ad-hoc签名，未Apple公证。多磁盘分别授权和真实自动上传尚未开放。\n\n第三方媒体运行库版本未变，对应源码：https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.5/YouTubeWorkbench-corresponding-sources.tar.gz\n",
+  "tag_name": "v0.8.18",
+  "body": "### 0.8.18\r\n\r\n- 归档结果支持逐条重试失败或中断的任务。\r\n- 减少本机数据库写锁竞争，改善批量归档过程中的重试反馈。\r\n\r\n适用于 Apple Silicon Mac，要求 macOS 26 或更新版本。安装前请结束正在运行的任务并退出旧版。安装包为 ad-hoc 签名，未经 Apple 公证。",
   "draft": false,
   "prerelease": false,
   "assets": [
     {
       "name": "SHA256SUMS",
       "state": "uploaded",
-      "size": 106,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.8/SHA256SUMS"
+      "size": 219,
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.18/SHA256SUMS"
     },
     {
-      "name": "YouTube-Workbench-0.7.8-macOS-arm64.dmg",
+      "name": "YouTube-Workbench-0.8.18-macOS-arm64.dmg",
       "state": "uploaded",
-      "size": 295200338,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.7.8/YouTube-Workbench-0.7.8-macOS-arm64.dmg"
+      "size": 297346354,
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.18/YouTube-Workbench-0.8.18-macOS-arm64.dmg"
+    },
+    {
+      "name": "YouTubeWorkbench-corresponding-sources.tar.gz",
+      "state": "uploaded",
+      "size": 118464716,
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.18/YouTubeWorkbench-corresponding-sources.tar.gz"
     }
   ]
 }
