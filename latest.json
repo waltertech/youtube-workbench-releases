@@ -8,13 +8,13 @@
       "name": "SHA256SUMS",
       "state": "uploaded",
       "size": 107,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/untagged-5bf1e3c62e36a50e917d/SHA256SUMS"
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.23/SHA256SUMS"
     },
     {
       "name": "YouTube-Workbench-0.8.23-macOS-arm64.dmg",
       "state": "uploaded",
       "size": 245384277,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/untagged-5bf1e3c62e36a50e917d/YouTube-Workbench-0.8.23-macOS-arm64.dmg"
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.23/YouTube-Workbench-0.8.23-macOS-arm64.dmg"
     }
   ]
 }
