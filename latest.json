@@ -1,20 +1,20 @@
 {
-  "tag_name": "v0.8.26",
-  "body": "- 归档核实成功后，自动移出本机任务列表并保留归档回执。\n- 尚未归档或归档失败的任务，支持单条或批量手动清除列表。\n- 升级后，已有成功回执的历史任务也会自动移出列表。\n\n适用于 Apple Silicon Mac，要求 macOS 26 或更新版本。安装包使用临时签名，未经 Apple 公证。\n\n随附运行时的[对应开源代码](https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.18/YouTubeWorkbench-corresponding-sources.tar.gz)。\n",
-  "draft": false,
-  "prerelease": false,
   "assets": [
     {
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.28/SHA256SUMS",
       "name": "SHA256SUMS",
-      "state": "uploaded",
       "size": 107,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.26/SHA256SUMS"
+      "state": "uploaded"
     },
     {
-      "name": "YouTube-Workbench-0.8.26-macOS-arm64.dmg",
-      "state": "uploaded",
-      "size": 245257843,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.26/YouTube-Workbench-0.8.26-macOS-arm64.dmg"
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.28/YouTube-Workbench-0.8.28-macOS-arm64.dmg",
+      "name": "YouTube-Workbench-0.8.28-macOS-arm64.dmg",
+      "size": 295778490,
+      "state": "uploaded"
     }
-  ]
+  ],
+  "body": "- 发布任务支持多选日期和添加连续日期。清空日期后，显示本机在所有日期的未完成计划。\n- 封面任务列表新增单条删除入口，仅移除该任务记录。\n\n适用于 Apple Silicon Mac，要求 macOS 26 或更新版本。安装包使用临时签名，未经 Apple 公证。\n\n随附运行时的[对应开源代码](https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.18/YouTubeWorkbench-corresponding-sources.tar.gz)。\n",
+  "draft": false,
+  "prerelease": false,
+  "tag_name": "v0.8.28"
 }
