@@ -1,6 +1,6 @@
 {
-  "tag_name": "v0.8.29",
-  "body": "- 「任务与审核」的失败、中断、已停止视频任务增加「删除本条任务」。确认后只处理当前任务，保留原始素材。\n- 「工作台更新」新增「升级包路径」，可在 Finder 查看升级包，并复用已下载且通过校验的同版本安装包。\n\n适用于 Apple Silicon Mac，要求 macOS 26 或更新版本。安装包使用临时签名，未经 Apple 公证。\n\n随附运行时的[对应开源代码](https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.18/YouTubeWorkbench-corresponding-sources.tar.gz)。\n",
+  "tag_name": "v0.8.30",
+  "body": "- 修复外接盘重新挂载后，原视频因系统设备号变化而无法移入废纸篓的问题。\n- 「任务与审核」的收尾区自动移出已清除批次的记录。审核和删除记录显示本地日期及时间，最近操作排在前面。\n\n适用于 Apple Silicon Mac，要求 macOS 26 或更新版本。安装包使用临时签名，未经 Apple 公证。\n\n随附运行时的[对应开源代码](https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.18/YouTubeWorkbench-corresponding-sources.tar.gz)。\n",
   "draft": false,
   "prerelease": false,
   "assets": [
@@ -8,13 +8,13 @@
       "name": "SHA256SUMS",
       "size": 107,
       "state": "uploaded",
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.29/SHA256SUMS"
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.30/SHA256SUMS"
     },
     {
-      "name": "YouTube-Workbench-0.8.29-macOS-arm64.dmg",
-      "size": 296481114,
+      "name": "YouTube-Workbench-0.8.30-macOS-arm64.dmg",
+      "size": 296948767,
       "state": "uploaded",
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.29/YouTube-Workbench-0.8.29-macOS-arm64.dmg"
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.30/YouTube-Workbench-0.8.30-macOS-arm64.dmg"
     }
   ]
 }
