@@ -1,6 +1,6 @@
 {
-  "tag_name": "v0.8.31",
-  "body": "- 同一条剪辑任务里，完全相同的循环画面分段只编码一次。后续循环复用已编码画面。\n- 继续按原方案交付画面顺序、背景音乐、分辨率和帧率，并保留整片解码校验。\n\n适用于 Apple Silicon Mac，要求 macOS 26 或更新版本。安装包使用临时签名，未经 Apple 公证。\n\n随附运行时的[对应开源代码](https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.18/YouTubeWorkbench-corresponding-sources.tar.gz)。\n",
+  "tag_name": "v0.8.32",
+  "body": "- 新成片文件夹继续使用设备编号、日期和成片序号。视频、来源 TXT、发布文案和封面使用同一段 18–24 位随机编码，包含按顺序排列的 6 位日期、3 位序号和 9–15 个英文字母。\n- 新建任务在预留导出目录时固定编码，重试沿用同一文件名。既有任务沿用其原路径。\n\n适用于 Apple Silicon Mac，要求 macOS 26 或更新版本。安装包使用临时签名，未经 Apple 公证。\n\n随附运行时的[对应开源代码](https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.18/YouTubeWorkbench-corresponding-sources.tar.gz)。\n",
   "draft": false,
   "prerelease": false,
   "assets": [
@@ -8,13 +8,13 @@
       "name": "SHA256SUMS",
       "size": 107,
       "state": "uploaded",
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.31/SHA256SUMS"
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.32/SHA256SUMS"
     },
     {
-      "name": "YouTube-Workbench-0.8.31-macOS-arm64.dmg",
-      "size": 296819190,
+      "name": "YouTube-Workbench-0.8.32-macOS-arm64.dmg",
+      "size": 295791737,
       "state": "uploaded",
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.31/YouTube-Workbench-0.8.31-macOS-arm64.dmg"
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.32/YouTube-Workbench-0.8.32-macOS-arm64.dmg"
     }
   ]
 }
