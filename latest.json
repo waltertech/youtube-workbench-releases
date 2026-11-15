@@ -1,6 +1,6 @@
 {
-  "tag_name": "v0.8.33",
-  "body": "- 修复封面制作页面快捷切换「严格识别」或「宽松识别」时，任务列表闪白并跳回顶部的问题。切换只更新当前任务，保留选中项、勾选和滚动位置。\n\n适用于 Apple Silicon Mac，要求 macOS 26 或更新版本。安装包使用临时签名，未经 Apple 公证。\n\n随附运行时的[对应开源代码](https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.18/YouTubeWorkbench-corresponding-sources.tar.gz)。\n",
+  "tag_name": "v0.8.34",
+  "body": "- 剪辑任务审核通过、不通过或删除后，由后台清理该任务的临时音轨、渲染分段和可重建的预览。\r\n- 移除封面任务或清除剪辑方案时，同步清理对应的闲置工作文件。正在使用的缓存待任务结束后处理，保留正式产物、原始音频和恢复所需的记录。\r\n\r\n适用于 Apple Silicon Mac，要求 macOS 26 或更新版本。安装包使用临时签名，未经 Apple 公证。\r\n\r\n随附运行时的[对应开源代码](https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.18/YouTubeWorkbench-corresponding-sources.tar.gz)。\r\n",
   "draft": false,
   "prerelease": false,
   "assets": [
@@ -8,13 +8,13 @@
       "name": "SHA256SUMS",
       "size": 107,
       "state": "uploaded",
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.33/SHA256SUMS"
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.34/SHA256SUMS"
     },
     {
-      "name": "YouTube-Workbench-0.8.33-macOS-arm64.dmg",
-      "size": 298541418,
+      "name": "YouTube-Workbench-0.8.34-macOS-arm64.dmg",
+      "size": 298215929,
       "state": "uploaded",
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.33/YouTube-Workbench-0.8.33-macOS-arm64.dmg"
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.34/YouTube-Workbench-0.8.34-macOS-arm64.dmg"
     }
   ]
 }
