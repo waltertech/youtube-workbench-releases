@@ -1,6 +1,6 @@
 {
-  "tag_name": "v0.8.35",
-  "body": "- 发布结果适配「发布成功」和「发布失败」。两种人工核查通过都写「发布成功」，辅助发布后的人工核查继续登记辅助发布和提供的视频 URL。\n- 「终止发布」进入已完成任务。归档时确认删除对应每日计划后释放原素材；待发布记录和成片保留，可再次分配。\n- 发布成功沿用已发布视频登记、待发布记录和原每日计划清理、文件移动及归档回读。未登记结果的任务仍待处理。\n\n支持 Apple Silicon 上的 macOS 26 或更新版本。安装包使用临时签名，未经 Apple 公证。\n\n随附运行时的[对应开源代码](https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.18/YouTubeWorkbench-corresponding-sources.tar.gz)。\n",
+  "tag_name": "v0.8.36",
+  "body": "- 兼容飞书从旧复选框迁移到新单选框后仍为空的发布结果。\n- 历史归档核实已被删除的旧计划后释放其占用。符合条件的旧发布任务可用已有视频链接恢复归档。\n- 终止发布移到列表上方。可对正在运行的任务请求停止，等待浏览器操作结束后再同步失败。\n\n支持 Apple Silicon 上的 macOS 26 或更新版本。安装包使用临时签名，未经 Apple 公证。\n\n随附运行时的[对应开源代码](https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.18/YouTubeWorkbench-corresponding-sources.tar.gz)。\n",
   "draft": false,
   "prerelease": false,
   "assets": [
@@ -8,13 +8,13 @@
       "name": "SHA256SUMS",
       "state": "uploaded",
       "size": 107,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.35/SHA256SUMS"
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.36/SHA256SUMS"
     },
     {
-      "name": "YouTube-Workbench-0.8.35-macOS-arm64.dmg",
+      "name": "YouTube-Workbench-0.8.36-macOS-arm64.dmg",
       "state": "uploaded",
-      "size": 302427609,
-      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.35/YouTube-Workbench-0.8.35-macOS-arm64.dmg"
+      "size": 294474666,
+      "browser_download_url": "https://github.com/waltertech/youtube-workbench-releases/releases/download/v0.8.36/YouTube-Workbench-0.8.36-macOS-arm64.dmg"
     }
   ]
 }
